@@ -5,6 +5,8 @@ include 'header.php';
 <html lang="id">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -27,6 +29,10 @@ include 'header.php';
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         padding: 20px;
+        width: 100%;
+        max-width: 600px;
+        /* Lebar maksimum untuk menjaga responsivitas */
+        text-align: center;
     }
 
     .card h1 {
@@ -36,6 +42,7 @@ include 'header.php';
 
     .card h4 {
         color: #555;
+        margin-bottom: 10px;
     }
 
     .separator {
@@ -47,16 +54,13 @@ include 'header.php';
 
 <body>
     <div class="container main-content">
-        <div class="card text-center">
+        <div class="card">
             <h1>WELCOME TO HOME</h1>
             <div class="separator"></div>
-            <h4>Nama: FOFY HIDAYAH</h4>
-            <h4>No.Bp: 21101152610284</h4>
+            <h4>Nama: Maizan Insani Akbar</h4>
+            <h4>No.Bp: 21101152610203</h4>
             <h4>Jurusan: SISTEM INFORMASI</h4>
             <div class="separator"></div>
-            <h4>Nama: JUMELIA HANIFA PUTRI</h4>
-            <h4>No.Bp: 21101152610290</h4>
-            <h4>Jurusan: SISTEM INFORMASI</h4>
         </div>
     </div>
 
